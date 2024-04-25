@@ -44,7 +44,7 @@ Feel free to fork this repository and use it as a reference while working on you
 
 ## License
 
-This repository is licensed under the [MIT License](LICENSE).
+This repository is licensed under the [MIT License](LICENSE.md).
 
 ## Acknowledgements
 
