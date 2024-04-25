@@ -8,7 +8,7 @@ This course covers the fundamentals of responsive web design, including HTML, CS
 
 ## Learning Basics of HTMl and CSS
 1. Part 1
-   * Learn HTML by building a Cat Photo App
+   * [Learn HTML by building a Cat Photo App](Part-1/CatPhotoApp)
    * Learn Basic CSS by building a Cafe Menu
    * Learn CSS Colours by building a set of Coloured Markers
    * Learn HTML Forms by building a Registration  Form
