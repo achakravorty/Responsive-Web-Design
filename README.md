@@ -19,7 +19,7 @@ This course covers the fundamentals of responsive web design, including HTML, CS
 
 ## Projects - Table of Contents
 
-1. [**Survey Form**: A responsive survey form with HTML form elements and CSS styling.](Projects/SurveryForm)
+1. [**Survey Form**](Projects/SurveyForm): A responsive survey form with HTML form elements and CSS styling.
 2. **Tribute Page**: A simple webpage paying tribute to a person or topic of your choice.
 3. **Technical Documentation Page**: A technical documentation page presenting information on a particular topic, styled with CSS.
 4. **Product Landing Page**: A landing page for a product or service, featuring responsive design techniques.
