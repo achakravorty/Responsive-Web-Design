@@ -36,7 +36,7 @@ Feel free to fork this repository and use it as a reference while working on you
 ## Resources
 
 - [freeCodeCamp](https://www.freecodecamp.org/): Visit the official freeCodeCamp website to learn more about their courses and coding challenges.
-- [Responsive Web Design Certification](https://www.freecodecamp.org/learn/responsive-web-design/): Access the Responsive Web Design certification course on freeCodeCamp.
+- [Responsive Web Design Certification](https://www.freecodecamp.org/learn/2022/responsive-web-design): Access the Responsive Web Design certification course on freeCodeCamp.
 
 ## Author
 
