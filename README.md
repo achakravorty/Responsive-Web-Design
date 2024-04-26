@@ -13,14 +13,18 @@ This course covers the fundamentals of responsive web design, including HTML, CS
    * [Learn CSS Colours by building a set of Coloured Markers](Part-1/ColoredMarkers)
    * [Learn HTML Forms by building a Registration  Form](Part-1/RegistrationForm)
 2. Part 2
-3. Part 3
-4. Part 4
-5. Part 5
+   * [Learn the CSS Box Model by Buildning a Rothko Painting](Part-2/RothkoPainting)
+   * [Learn CSS Flexbox by Building a Photo Gallery](Part-2/FlexBoxPhotoGallery)
+   * [Learn Typograghy by Building a Nutrition Label](Part-2/NutritionLabel)
+   * [Learn Accessibility by Building a Quiz](Part-2/AccessibilityQuiz)
+4. Part 3
+5. Part 4
+6. Part 5
 
 ## Projects - Table of Contents
 
 1. [**Survey Form**](Projects/SurveyForm): A responsive survey form with HTML form elements and CSS styling.
-2. **Tribute Page**: A simple webpage paying tribute to a person or topic of your choice.
+2. [**Tribute Page**](Projects/TributePage): A simple webpage paying tribute to a person or topic of your choice.
 3. **Technical Documentation Page**: A technical documentation page presenting information on a particular topic, styled with CSS.
 4. **Product Landing Page**: A landing page for a product or service, featuring responsive design techniques.
 5. **Personal Portfolio**: A portfolio webpage showcasing your projects and skills, with responsive layout design.
