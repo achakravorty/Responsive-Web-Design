@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Skincare Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title"> Naturals Skincare Survey</h1>
+    <p id="description">We appreciate your participation. <br> Please tell us about your skincare and give us a of review our Naturals products!</p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label"><b>Name:</b> <input id="name" name="name" type="text" placeholder="Enter your name here" required /></label>
+        <label for="email" id="email-label"><b>Email:</b> <input id="email" name="email" type="email" placeholder="Enter your email here" required /></label>
+        <label for="age" id="number-label"><span><b>Age</b> (optional)</span>: <input id="number" name="number" type="number" min="13" max="120" placeholder="Enter your age here" /></label>
+      </fieldset>
+      <fieldset>
+        <!-- radion buttons 1 -->
+        <legend><b>Do you use skincare products?</b></legend>
+        <label for="yes"><input id="yes" type="radio" name="usage" class="inline" value="1" checked />Yes</label>
+        <label for="no"><input id="neo" type="radio" name="usage" class="inline"  value="2"/>No</label>
+        <!-- dropdown -->
+        <label for="dropdown"><b>How much do you spend on skincare products on average per month?</b>
+          <select id="dropdown" name="dropdown">
+            <option value="">Select an option</option>
+            <option value="1">Less then $100</option>
+            <option value="2">$100-$250</option>
+            <option value="3">More than $250</option>
+          </select>
+        </label>
+      </fieldset>
+      <!-- checkbox -->
+      <fieldset>
+        <legend><span><b>What are your current skincare products?</b> (Check all that apply)</span></legend>
+        <label for="makeup-remover">
+        <input class="inline" value="1" id="makeup-remover" type="checkbox"  name="makeup-remover" /> Make-up remover
+      </label>
+      <label for="cleanser">
+        <input class="inline" value="2" id="cleanser" type="checkbox"  name="cleanser" /> Cleanser
+      </label>
+      <label for="toner">
+        <input class="inline" value="3" id="toner" type="checkbox"  name="toner" /> Toner
+      </label>
+      <label for="serum">
+        <input class="inline" value="4" id="serum" type="checkbox"  name="serum" /> Serum
+      </label>
+      <label for="moisturizer">
+        <input class="inline" value="5" id="moisturizer" type="checkbox"  name="moisturizer" /> Moisturizer
+      </fieldset>
+      <!-- radion buttons 2 -->
+      <fieldset>
+        <legend><b>How would your overall satisfaction with our products?</b></legend>
+        <label for="satisfied"><input id="satisfied" type="radio" name="satisfaction-rate" class="inline" value="2"checked /> Satisfied</label>
+        <label for="neutral"><input id="neutral" type="radio" name="satisfaction-rate" class="inline" value="1"/> Neutral</label>
+        <label for="dissatisfied"><input id="dissatisfied" type="radio" name="satisfaction-rate" class="inline" value="0"/> Dissatisfied</label>
+        <!-- comments -->
+        <label for="comments"><b>Give us feedback:</b>
+          <textarea id="comments" name="comments" rows="3" cols="30" placeholder="Enter your comments here..."></textarea>
+        </label>
+      </fieldset>
+      <fieldset>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
