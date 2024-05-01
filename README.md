@@ -30,8 +30,8 @@ This course covers the fundamentals of responsive web design, including HTML, CS
 1. [**Survey Form**](Projects/SurveyForm): A responsive survey form with HTML form elements and CSS styling.
 2. [**Tribute Page**](Projects/TributePage): A simple webpage paying tribute to a person or topic of your choice.
 3. [**Technical Documentation Page**](Projects/TechnicalDocumentationPage): A technical documentation page presenting information on a particular topic, styled with CSS.
-4. **Product Landing Page**: A landing page for a product or service, featuring responsive design techniques.
-5. **Personal Portfolio**: A portfolio webpage showcasing your projects and skills, with responsive layout design.
+4. **Product Landing Page**(TODO): A landing page for a product or service, featuring responsive design techniques.
+5. **Personal Portfolio**(TODO): A portfolio webpage showcasing your projects and skills, with responsive layout design.
 
 ## Getting Started
 
@@ -57,3 +57,7 @@ This repository is licensed under the [MIT License](LICENSE).
 ## Acknowledgements
 
 Special thanks to [freeCodeCamp.com](https://www.freecodecamp.org/) for providing this comprehensive course on responsive web design and coding challenges.
+
+---
+
+Happy Coding! 🚀
