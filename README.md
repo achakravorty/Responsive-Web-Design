@@ -1,4 +1,4 @@
-# Responsive Web Design
+# Responsive Web Design (freeCodeCamp)
 
 Welcome to my repository for the Responsive Web Design course from freeCodeCamp! In this repository, you'll find my solutions to the projects and exercises included in the course. 
 
