@@ -1,12 +1,13 @@
 # Responsive Web Design (freeCodeCamp)
 
-Welcome to my repository for the Responsive Web Design course from freeCodeCamp! In this repository, you'll find my solutions to the projects and exercises included in the course. 
+Welcome to my repository for the Responsive Web Design course from freeCodeCamp! In this repository, you'll find my solutions to the projects and exercises included in the course.
 
 ## About the Course
 
 This course covers the fundamentals of responsive web design, including HTML, CSS, Flexbox, and CSS Grid. Through a series of hands-on projects and challenges, learners gain practical experience in creating websites that adapt and respond to different devices and screen sizes.
 
 ## Learning Basics of HTMl and CSS
+
 1. Part 1
    * [Learn HTML by building a Cat Photo App](Part-1/CatPhotoApp)
    * [Learn Basic CSS by building a Cafe Menu](Part-1/CafeMenu)
@@ -17,17 +18,20 @@ This course covers the fundamentals of responsive web design, including HTML, CS
    * [Learn CSS Flexbox by Building a Photo Gallery](Part-2/FlexBoxPhotoGallery)
    * [Learn Typograghy by Building a Nutrition Label](Part-2/NutritionLabel)
    * [Learn Accessibility by Building a Quiz](Part-2/AccessibilityQuiz)
-4. Part 3
-5. Part 4
-6. Part 5
+3. Part 3
+   * [Learn More About CSS Pseudo Selectors by Building A Balance Sheet](Part-3/BalanceSheet)
+   * [Learn Intermediate CSS by Building a Cat Painting](Part-3/CatPainting)
+   * [Learn Responsive Web Design by Building a Piano](Part-3/Piano)
+4. Part 4
+5. Part 5
 
 ## Projects - Table of Contents
 
 1. [**Survey Form**](Projects/SurveyForm): A responsive survey form with HTML form elements and CSS styling.
 2. [**Tribute Page**](Projects/TributePage): A simple webpage paying tribute to a person or topic of your choice.
-3. **Technical Documentation Page**: A technical documentation page presenting information on a particular topic, styled with CSS.
-4. **Product Landing Page**: A landing page for a product or service, featuring responsive design techniques.
-5. **Personal Portfolio**: A portfolio webpage showcasing your projects and skills, with responsive layout design.
+3. [**Technical Documentation Page**](Projects/TechnicalDocumentationPage): A technical documentation page presenting information on a particular topic, styled with CSS.
+4. **Product Landing Page**(TODO): A landing page for a product or service, featuring responsive design techniques.
+5. **Personal Portfolio**(TODO): A portfolio webpage showcasing your projects and skills, with responsive layout design.
 
 ## Getting Started
 
@@ -39,8 +43,8 @@ Feel free to fork this repository and use it as a reference while working on you
 
 ## Resources
 
-- [freeCodeCamp](https://www.freecodecamp.org/): Visit the official freeCodeCamp website to learn more about their courses and coding challenges.
-- [Responsive Web Design Certification](https://www.freecodecamp.org/learn/2022/responsive-web-design): Access the Responsive Web Design certification course on freeCodeCamp.
+* [freeCodeCamp](https://www.freecodecamp.org/): Visit the official freeCodeCamp website to learn more about their courses and coding challenges.
+* [Responsive Web Design Certification](https://www.freecodecamp.org/learn/2022/responsive-web-design): Access the Responsive Web Design certification course on freeCodeCamp.
 
 ## Author
 
@@ -53,3 +57,7 @@ This repository is licensed under the [MIT License](LICENSE).
 ## Acknowledgements
 
 Special thanks to [freeCodeCamp.com](https://www.freecodecamp.org/) for providing this comprehensive course on responsive web design and coding challenges.
+
+---
+
+Happy Coding! 🚀
