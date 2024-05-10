@@ -7,9 +7,8 @@
         <link rel="stylesheet" href="./styles.css">
       </head>
       <body>
-        <nav id="navbar"></nav>
+        <nav id="navbar">
             <header>HTML Documentaiton</header>
-            
                 <ul>
                     <li>
                         <a href="#Introduction_to_HTML" class="nav-link">Introduction to HTML</a>
@@ -26,30 +25,47 @@
                     <li>
                         <a href="#Nesting_elements" class="nav-link">Nesting elements</a>
                     </li>
+                    <li>
+                        <a href="#Void_elements" class="nav-link">Void elements</a>
+
+                    </li>
+                    <li>
+                        <a href="#Anatomy_of_an_HTML_document" class="nav-link">Anatomy of an HTML document</a>
+
+                    </li>
+                    <li>
+                        <a href="#Comments" class="nav-link">Comments</a>
+                    </li>
+                    <li>
+                        <a href="#Reference" class="nav-link">Reference</a>
+                    </li>
                 </ul>
         </nav>
         <main id="main-doc">
             <section class="main-section" id="Introduction_to_HTML">
                 <header>Introduction to HTML</header>
+                <article>
                 <p>
                     HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (<a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a>) or functionality/behavior (<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a>).
                 </p>    
                 <ul>
                     <li>"Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web.</li>
                     <li>HTML uses "markup" to annotate text, images, and other content for display in a Web browser. HTML markup includes special "elements" such as 
-                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head">
-                            <code>&lt;head&gt;</code>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head" target=”_blank”>
+                            &lt;head&gt;
                         </a>, 
-                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title">
-                            <code>&lt;title&gt;</code>
-                        </a>, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body">
-                            <code>&lt;body&gt;</code>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title" target=”_blank”>
+                            &lt;title&gt;
+                        </a>, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body" target=”_blank”>
+                           &lt;body&gt;
                         </a> and many others.
                     </li>
                 </ul>
+            </article>
             </section>
             <section class="main-section" id="Prerequisites">
                 <header>Prerequisites</header>
+                <article>
                 <p>
                     You don't need any previous HTML knowledge, but you should have at least basic familiarity with:
                     <ul>
@@ -57,6 +73,7 @@
                         <li>and understand how to create and manage files.</li>
                     </ul> 
                 </p>
+                </article>
             </section>
             <section class="main-section" id="HTML_Elements">
                 <header>HTML Elements</header>
@@ -97,16 +114,90 @@
                 <header>Nesting elements</header>
                 <article>
                     <p>
-                        You can put elements inside other elements too — this is called nesting. If we wanted to state that our cat is very grumpy, we could wrap the word "very" in a <code>&lt;strong&gt;</code> element, which means that the word is to be strongly emphasized:
+                        You can put elements inside other elements too — this is called nesting. If we wanted to state that our cat is very grumpy, we could wrap the word "very" in a &lt;strong&gt; element, which means that the word is to be strongly emphasized:
                     </p>
                     <code>&lt;p&gt;My cat is &lt;strong&gt;very&lt;/strong&gt; grumpy&lt;/p&gt;</code>
                     <p>
-                        You do however need to make sure that your elements are properly nested. In the example above, we opened the <code>&lt;p&gt;</code>  element first, then the <code>&lt;strong&gt;</code>  element; therefore, we have to close the <code>&lt;strong&gt;</code>  element first, then the <code>&lt;p&gt;</code> element. The following is incorrect:
+                        You do however need to make sure that your elements are properly nested. In the example above, we opened the &lt;p&gt;  element first, then the &lt;strong&gt; element; therefore, we have to close the &lt;strong&gt;  element first, then the &lt;p&gt; element. The following is incorrect:
                     </p>
-                    <code>&lt;p&gt;My cat is &lt;strong&gt;very grumpy&lt;/p&gt;&lt;/strong&gt;</code>
+                    <code id="wrong">&lt;p&gt;My cat is &lt;strong&gt;very grumpy&lt;/p&gt;&lt;/strong&gt;</code>
                 </article>
             </section>
-            <section></section>
+            <section class="main-section" id="Void_elements">
+                <header>Void elements</header>
+                <article>
+                <p>
+                    Some elements have no content and are called void elements. Take the &lt;img&gt; element that we already have in our HTML page: 
+                </p>
+                <code>&lt;img src="images/firefox-icon.png" alt="My test image" /&gt;</code>
+                <p>
+                    This contains two attributes, but there is no closing &lt;img&gt; tag and no inner content. This is because an image element doesn't wrap content to affect it. Its purpose is to embed an image in the HTML page in the place it appears.
+                </p>
+                </article>
+            </section>
+            <section class="main-section" id="Anatomy_of_an_HTML_document">
+                <header>Anatomy of an HTML document</header>
+                <article>
+                <p>
+                    That wraps up the basics of individual HTML elements, but they aren't handy on their own. Now we'll look at how individual elements are combined to form an entire HTML page
+                </p>
+                <code>&lt;!DOCTYPE html&gt;
+                    &lt;html lang="en-US"&gt;
+                    &nbsp;&nbsp;&lt;head&gt;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta charset="utf-8" /&gt;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta name="viewport" content="width=device-width" /&gt;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;My test page &lt;/title&gt;
+                    &nbsp;&nbsp;&lt;/head&gt;
+                    &nbsp;&nbsp;&lt;body&gt;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;img src="images/firefox-icon.png" alt="My test image" /&gt;
+                    &nbsp;&nbsp;&lt;/body&gt;
+                    &lt;/html&gt;</code>
+                <p>
+                    Here, we have the following:
+                    <ul>
+                        <li>
+                            &lt;!DOCTYPE html&gt; — doctype. It is a required preamble. In the mists of time, when HTML was young (around 1991/92), doctypes were meant to act as links to a set of rules that the HTML page had to follow to be considered good HTML, which could mean automatic error checking and other useful things. However, these days, they don't do much and are basically just needed to make sure your document behaves correctly. That's all you need to know for now.
+                        </li>
+                        <li>
+                            &lt;html&gt;&lt;/html&gt; — the &lt;html&gt; element. This element wraps all the content on the entire page and is sometimes known as the root element. It also includes the lang attribute, setting the primary language of the document.
+                        </li>
+                        <li>
+                            &lt;head&gt;&lt;/head&gt; — the &lt;head&gt; element. This element acts as a container for all the stuff you want to include on the HTML page that isn't the content you are showing to your page's viewers. This includes things like keywords and a page description that you want to appear in search results, CSS to style our content, character set declarations, and more.
+                        </li>
+                        <li>
+                            &lt;meta charset="utf-8"&gt; — This element sets the character set your document should use to UTF-8 which includes most characters from the vast majority of written languages. Essentially, it can now handle any textual content you might put on it. There is no reason not to set this, and it can help avoid some problems later on.
+                        </li>
+                        <li>
+                            &lt;meta name="viewport" content="width=device-width"&gt; — This viewport element ensures the page renders at the width of viewport, preventing mobile browsers from rendering pages wider than the viewport and then shrinking them down.
+                        </li>
+                        <li>
+                            &lt;title&gt;&lt;/title&gt; — the &lt;title&gt; element. This sets the title of your page, which is the title that appears in the browser tab the page is loaded in. It is also used to describe the page when you bookmark/favorite it.
+                        </li>
+                        <li>
+                            &lt;body&gt;&lt;/body&gt; — the &lt;body&gt; element. This contains all the content that you want to show to web users when they visit your page, whether that's text, images, videos, games, playable audio tracks, or whatever else.
+                        </li>
+                    </ul>
+                </p>
+                </article>
+            </section>
+            <section class="main-section" id="Comments">
+                <header>Comments</header>
+                <article>
+                <p>
+                    HTML has a mechanism to write comments in the code. Browsers ignore comments, effectively making comments invisible to the user. The purpose of comments is to allow you to include notes in the code to explain your logic or coding. This is very useful if you return to a code base after being away for long enough that you don't completely remember it. Likewise, comments are invaluable as different people are making changes and updates. 
+                </p>
+                <code>&lt!-- This is a comment --&gt;
+                    &lt;p&gt; This is a paragraph &lt;/p&gt;</code>
+                </article>
+            </section>
+            <section class="main-section" id="Reference">
+                <header>Reference</header>
+                <article>
+                <p>
+                    All the documentation in this page is taken from <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics" target=”_blank”>MDN</a>.
+                </p>
+                </article>
+            </section>
         </main>
       </body>
 </html>
