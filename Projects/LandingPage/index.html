@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A product landing page for a skin care and masking company create for freeCodeCamp's Responsive Web Design Certification." />
+        <title>Nyantika. Landing Page</title>
+        <script src="https://kit.fontawesome.com/32bebd3d8e.js" crossorigin="anonymous"></script>        
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        
+        <header id="header">
+            <div class="logo">
+                <img class="hidden-img" id="header-img" src="https://png.pngtree.com/element_our/20190601/ourmid/pngtree-lemon-icon-image_1347966.jpg" alt="" >
+                <!-- <i class="fa-solid fa-lemon" id="header-img-main"></i>-->
+                <h1 class="logo">Nyantik.</h1>
+            </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#about_us">About Us</a></li>
+                    <li><a class="nav-link" href="#why_choose_us">Why Us?</a></li>
+                    <li><a class="nav-link" href="#services">Services</a></li>
+                    <li><a class="nav-link" href="#contact_us">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="hero">
+                <div class="grid">
+                    <h1>Be Your own kind of beautiful</h1>
+                    <p id="description">Masking is a must-have step in your beauty routine, especially if you want to target specific skin concerns.</p>
+                    <p id="description">Masks are easy to incorporate into any any skincare routine, and a great way to pamper yourself.</p>
+                    <button class="btn">Contact Us</button>
+                </div>
+            </section>
+
+            <section id="about_us">
+                <div>
+                    <h2>We Take Your Skin Seriously</h2>
+                    <p>With our international standards, we select our team of dermatologists and equip them with up to date facilities on a regular basis in order to design a dermatology program.</p>
+                </div>
+                <iframe id="video" height="315" src="https://www.youtube.com/embed/eVxxPL_gcXw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </section>
+
+            <section id="why_choose_us">
+                <h2>Why you should choose Nyantik</h2>
+                <div class="container">
+                    <div class="card">
+                        <div class="icon">
+                            <span style="color: #3c632c">
+                                <i class="fa-solid fa-medal fa-2x"></i>
+                            </span>
+                        </div>
+                        <div class="desc">
+                            <h3>Top Quality</h3>
+                            <p>We always use the highest quality materials to maintain quality</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="icon">
+                            <span style="color: #3c632c">
+                                <i class="fa-solid fa-tree fa-2x"></i>
+                            </span>
+                        </div>
+                        <div class="desc">
+                            <h3>Natural Products</h3>
+                            <p>We always use natural ingrediants in our products to take care of the skin</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="icon">
+                            <span style="color: #3c632c">
+                                <i class="fa-solid fa-comments fa-2x"></i>
+                            </span>
+                        </div>
+                        <div class="desc">
+                            <h3>Free Consultantation</h3>
+                            <p>Before taking care of prospective customers, we provide a free consultation</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="services">
+                <h2>Services We Offer</h2>
+                <div class="container">
+                    <div class="card">
+                        <div class="icon">
+                            <img src="" alt="">
+                        </div>
+                        <div class="desc">
+                            <h3>Spa Service</h3>
+                            <p id="price">$53.00</p>
+                        </div>
+                        <button class="btn">See Details</button>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="icon">
+                            <img src="" alt="">
+                        </div>
+                        <div class="desc">
+                            <h3>Nails Service</h3>
+                            <p id="price">$56.00</p>
+                        </div>
+                        <button class="btn">See Details</button>
+                    </div>
+
+                    <div class="card">
+                        <div class="icon">
+                            <img src="" alt="">
+                        </div>
+                        <div class="desc">
+                            <h3>Facial Service</h3>
+                            <p id="price">$66.00</p>
+                        </div>
+                        <button class="btn">See Details</button>
+                    </div>
+            </section>
+
+            <section id="contact_us">
+                <h2>Contact Us</h2>
+                <p>Want to know more or a sign-up for a free consultation? Let us know!</p>
+                <div class="grid">
+                    <form id="form" action="https://www.freecodecamp.com/email-submit">
+                        <div class="form-group">
+                            <label id="name-label" for="name">Name</label>
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Name" required />
+                          </div>
+                          <div class="form-group">
+                            <label id="email-label" for="email">Email</label>
+                            <input name="email" class="form-control" id="email" type="email" placeholder="Email address" required />
+                          </div>
+                          <div class="form-group">
+                            <label>Message</label>
+                            <textarea id="message" class="input-textarea" name="message" placeholder="Enter your message here..."></textarea>
+                          </div>
+                          <div class="form-group">
+                            <label id="submit-label" for="submit"></label>
+                            <input id="submit" type="submit" value="Submit" class="btn" />
+                          </div>
+                    </form>
+                </div>
+            </section>
+
+            <footer>
+                <div class="footor-logo">
+                    <!-- <i class="fa-solid fa-lemon" id="header-img-main"></i>-->
+                    <h1 class="logo">Nyantik.</h1>
+                </div>
+                <div id="footer-info">
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <div id="copyright">@ 2024 Nyantik</div>
+                </div>
+            </footer>
+        </main>
+        
+    </body>
+</html>
