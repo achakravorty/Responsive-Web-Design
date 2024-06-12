@@ -23,14 +23,18 @@ This course covers the fundamentals of responsive web design, including HTML, CS
    * [Learn Intermediate CSS by Building a Cat Painting](Part-3/CatPainting)
    * [Learn Responsive Web Design by Building a Piano](Part-3/Piano)
 4. Part 4
+   * [Learn CSS Variables by Building a City Skyline](Part-4/CitySkyline/)
+   * [Learn CSS Grid by Building a Magazine](Part-4/Magazine/)
 5. Part 5
+   * [Learn CSS Animation by Building a Ferris Wheel](Part-5/FerrisWheel/)
+   * [Learn CSS Transforms by Building a Penguin](Part-5/FlappyPenguin/)
 
 ## Projects - Table of Contents
 
 1. [**Survey Form**](Projects/SurveyForm): A responsive survey form with HTML form elements and CSS styling.
 2. [**Tribute Page**](Projects/TributePage): A simple webpage paying tribute to a person or topic of your choice.
 3. [**Technical Documentation Page**](Projects/TechnicalDocumentationPage): A technical documentation page presenting information on a particular topic, styled with CSS.
-4. **Product Landing Page**(TODO): A landing page for a product or service, featuring responsive design techniques.
+4. **Product Landing Page**(Projects/LandingPage): A landing page for a product or service, featuring responsive design techniques.
 5. **Personal Portfolio**(TODO): A portfolio webpage showcasing your projects and skills, with responsive layout design.
 
 ## Getting Started
